@@ -17,7 +17,7 @@ Do the following simple steps to add this Manager class in your project
 
 First of all, follow the instructions written in **Introduction** section of this documentaion
 
-Then, simply download or copy [this](https://github.com/hamza-faroooq/Swift-NativeImageVideoPickerManager/blob/main/ImagePickerManager.swift) code and place it in your project. (Click on the link, this will take you to the directory where extension is placed)
+Then, simply download or copy [this](https://github.com/hamza-faroooq/Swift-NativeImageVideoPickerManager/blob/main/ImagePickerManager.swift) code and place it in your project. (Click on the link, this will take you to the directory where NativeImageVideoPickerManager is placed)
 
 ## Example
 
@@ -39,7 +39,7 @@ ImagePickerManager.callGenericImagePickerActionSheet(presentingController: self,
         
 ```
 
-This will automatically handle the permissions and all the stuff that you need to write again and again. After this write the protocol to handle the response of the PickerManager
+This will automatically handle the permissions and all the stuff that you need to write again and again. After this write the [Protocol](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html) to handle the response of the PickerManager
 
 ```swift
 
