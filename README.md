@@ -95,8 +95,18 @@ extension YourViewController: videoPickerSelectedProtocol, UIImagePickerControll
 
 ```
 
-There are several attributes that you can modify to change the behaviour of the video picker. In the manager class there is a limit of maximum length for the video, current limit is 30 seconds. The manager also uses the compression for the video, if you do not want to compress the video then you can modify the manager on your own.
+There are several attributes that you can modify to change the behaviour of the video picker. In the manager class there is a limit of maximum length for the video, current limit is 30 seconds. The manager also uses the compression for the video, if you do not want to compress the video then you can modify the manager on your own. Last but not the least, don't forget to add the following permissions in info.plist file of your project.
 
+```swift
+
+<key>NSCameraUsageDescription</key>
+<string>Grant access so that you can capture photo as profile image easily</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Grant access so that you can upload your photo as profile image easily</string>
+
+```
+        
 ### I uses this class for my own personal use, if you want to use some other methods or want to modify this class on your own, you can. :-)
 
 ## Contributions
